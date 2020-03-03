@@ -1,6 +1,6 @@
 {
   "env": {
-    "WEATHER_API_HOST": "@WEATHER_API_HOST",
-    "WEATHER_API_KEY": "@WEATHER_API_KEY"
+    "WEATHER_API_HOST": "@weather_api_host",
+    "WEATHER_API_KEY": "@weather_api_key"
   }
 }

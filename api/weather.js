@@ -15,5 +15,5 @@ module.exports = (req, res) => {
     .catch(err => {
       console.log(err)
     })
-  res.status(200).send('Getting Weather')
+  res.status(200).send('Getting Weather From API')
 }
