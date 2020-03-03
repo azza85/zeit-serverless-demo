@@ -13,6 +13,6 @@ module.exports = (req, res) => {
       res.status(200).send(`Temperature in ${city} is ${response.data.main.temp}`)
     })
     .catch(err => {
-      res.status(400).send(err)
+      res.status(400).send(<h1>{err.message}</h1>)
     })
 }
