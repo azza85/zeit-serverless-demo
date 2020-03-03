@@ -10,11 +10,9 @@ module.exports = (req, res) => {
     }
   })
     .then(response => {
-      console.log(response)
-      res.status(200).send(`Temperature in ${city} is ${response.main.temp}`)
+      res.status(200).send(`Temperature in ${city} is ${response.data.main.temp}`)
     })
     .catch(err => {
-      console.log(err)
       res.status(400).send(err)
     })
 }
