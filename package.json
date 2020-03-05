@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/azza85/zeit-serverless-demo#readme",
   "devDependencies": {
+    "@now/node": "^1.4.1",
     "axios": "^0.19.2"
   }
 }
